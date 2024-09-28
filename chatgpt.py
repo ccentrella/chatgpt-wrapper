@@ -14,7 +14,8 @@ if prompt.strip() == '':
     raise AttributeError("Prompt is required")
 model = os.environ.get('MODEL') or 'gpt-4o-mini'
 
-print('Waiting for response from ChatGPT...')
+print('\nWaiting for response from ChatGPT...')
+
 completion = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
