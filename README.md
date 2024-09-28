@@ -2,7 +2,7 @@
 
 Simple wrapper for OpenAI GPT API.
 
-Supports all models including `o1`, `4o`, and `4o-mini`.
+Supports all models including `o1`, `4o`, and `4o-mini`. Uses `4o-mini` by default to minimize API cost.
 
 ## Installation
 
