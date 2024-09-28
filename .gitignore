@@ -1,0 +1,5 @@
+.env
+.instructions.txt
+.idea
+.vscode
+**/**.DS_STORE
