@@ -32,7 +32,7 @@ def load_information():
     if prompt.strip() == '':
         raise AttributeError("Prompt is required")
 
-    print('\nWaiting for response from ChatGPT...')
+    print('\nWaiting for response from ChatGPT...\n')
 
     return instructions, model, prompt
 
