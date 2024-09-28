@@ -32,17 +32,17 @@ Add instructions (optional):
 
 ## Usage
 
-Run 4o-mini using `chatgpt` command.
+Run `4o-mini` using `chatgpt` command.
 ```shell
 chatgpt "Who is Barack Obama? Target Gen Z audience and generate answer by highlighting historical milestones, notable accomplishments, and lasting legacy of his presidency."
 ```
 
-Run 4o using `chatgpt-4o` command.
+Run `4o` using `chatgpt-4o` command.
 ```shell
 chatgpt-4o "Who is Barack Obama? Target Gen Z audience and generate answer by highlighting historical milestones, notable accomplishments, and lasting legacy of his presidency."
 ```
 
-Run o1-mini using `chatgpt-o1` command.
+Run `o1-mini` using `chatgpt-o1` command.
 ```shell
 chatgpt-o1 "Help me understand the chain rule of calculus."
 ```
