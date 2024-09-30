@@ -1,6 +1,7 @@
 import os
 import sys
 from openai import OpenAI
+from dotenv import load_dotenv
 
 def send_request():
     instructions, model, prompt = load_information()
@@ -21,6 +22,10 @@ def send_request():
     print(completion.choices[0].message.content)
 
 def load_information():
+
+    # Load .env file
+    load_dotenv()
+
     try:
         with open('..instructions.txt', 'r') as file:
             instructions = file.read()
